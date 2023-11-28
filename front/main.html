@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Gépéto</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+
+  <header>
+    <h1>Welcome on Chat Gépéto</h1>
+    <div class="nomUser"></div>
+  </header>
+
+  <body>
+    <div class="username">
+      Rentre ton pseudo afin d'envoyer des messages :
+      <input type="text" name="username" id="zoneInputName" />
+      <button id="btn0">Valider</button>
+    </div>
+    <div class="messagesFeed"></div>
+    <div class="inputZone">
+      <input
+        type="text"
+        id="message"
+        name="message"
+        placeholder="Tapez votre message"
+      />
+      <img src="img/button-send.png" alt="btnEnvoyer" id="btnEnvoyerMessage" />
+    </div>
+  </body>
+</html>
